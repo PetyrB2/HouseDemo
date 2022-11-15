@@ -10,6 +10,7 @@ public class House {
 	private int numWindows;
 	private String colour;
 
+<<<<<<< HEAD
 	// No-Arg Constructor (Default ctor)
 	public House() {
 		ID = "Z001";
@@ -35,6 +36,8 @@ public class House {
 		
 	}// end ctor
 
+=======
+>>>>>>> 614826bc3c11914c2c8a4f590abd98293b131340
 	// Getters and Setters
 
 	public String getID() {
