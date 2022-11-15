@@ -10,6 +10,34 @@ public class House {
 	private int numWindows;
 	private String colour;
 
+<<<<<<< HEAD
+	// No-Arg Constructor (Default ctor)
+	public House() {
+		ID = "Z001";
+		houseNumber = 1;
+		address = "Home";
+		numStories = 2;
+		numBedRooms = 2;
+		numWindows = 8;
+		colour = "White";
+	}// end ctor
+
+	// Parameterised Constructor
+	public House(String ID, int houseNumber, String address, int numStories, 
+			int numBedRooms, int numWindows, String colour) {
+
+		this.ID = ID;
+		this.houseNumber = houseNumber;
+		this.address = address;
+		this.numStories = numStories;
+		this.numBedRooms = numBedRooms;
+		this.numWindows = numWindows;
+		this.colour = colour;
+		
+	}// end ctor
+
+=======
+>>>>>>> 614826bc3c11914c2c8a4f590abd98293b131340
 	// Getters and Setters
 
 	public String getID() {
